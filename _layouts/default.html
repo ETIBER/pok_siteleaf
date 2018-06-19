@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <nav>
+      <div class="nav__container">
+        <ul class="nav__links">
+          {% assign menu_items = site.pages | where_exp: 'page', 'page.menu_index > 0' | sort: 'menu_index' %}
+          {% for menu_item in menu_items %}
+          <li>
+            {menu_item.title}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+    <main>
+      {{ content }}
+    </main>
+  </body>
+</html>
