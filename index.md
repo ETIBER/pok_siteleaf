@@ -1,5 +1,5 @@
 ---
-title: Welcome to our site
+title: Welcome to the site
 layout: home
 ---
 
