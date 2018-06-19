@@ -2,8 +2,8 @@
 title: Your awesome title
 timezone: UTC
 collections:
-  auteurs:
-    title: Auteurs
+  authors:
+    title: Authors
     output: true
   posts:
     title: Posts
