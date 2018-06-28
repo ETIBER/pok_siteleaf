@@ -5,6 +5,7 @@ collections:
   authors:
     title: Authors
     output: true
+    Field name: name
   posts:
     title: Posts
     output: true
